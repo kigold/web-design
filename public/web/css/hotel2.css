@@ -1,0 +1,65 @@
+
+form {
+    background: #f0eded;
+    padding: 10px 50px 40px 50px;
+    border-radius: 10px;
+}
+input {
+    border: none;    
+    min-height: 40px;
+}
+
+.field {    
+    display: flex;
+    flex-direction: column;
+}
+.field > label {    
+    padding: 10px 0px 10px 20px;
+}
+.field > input {    
+    padding: 20px;
+    /*border-radius: 10px;*/
+}
+.group {   
+    display: flex;
+    flex:none;
+    flex-direction: row;
+    justify-content: center;
+
+    box-shadow: 5px 5px 20px #cecccc;
+}
+.group > label {
+    width:20%;
+}
+
+
+.field_group {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+   /* max-inline-size: 600px;
+   justify-content: center;
+    */
+    
+    
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    margin: 30px;
+}
+.field_group > div > input {
+    border-right: 1px solid;
+}
+
+.field:last-child > input{
+    border-right: none;
+}
+
+
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}

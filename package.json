@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Sample Web Design components",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kigold/web-design.git"
+  },
+  "author": "kingsLEe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kigold/web-design/issues"
+  },
+  "homepage": "https://github.com/kigold/web-design#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

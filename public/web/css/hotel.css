@@ -1,0 +1,129 @@
+body {
+    background-image: url(../img/skyscrappers.png);    ;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+form {
+    background: #f5f8fc;
+    padding: 10px 50px 40px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border: none;
+    border-top-left-radius:     1em 5em;
+    border-top-right-radius:    1em 5em;
+    border-bottom-right-radius: 1em 5em;
+    border-bottom-left-radius:  1em 5em;
+}
+input {
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+.banner{
+    background: #d62341;
+    height:70px;
+    border-radius: 5px;
+    max-width: 300px;
+    color:white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    margin: auto;
+    padding: 0px 100px 0px 100px;
+
+
+}
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 500px;
+    min-width: 300px;
+    align-content: center;
+    height: auto;
+    box-shadow: 5px 5px 20px #000000;
+    
+}
+.field {    
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /*min-width: 400px;*/
+}
+.field > label {    
+    padding: 0px 0px 10px 20px;
+}
+.field > input {    
+    box-shadow: 5px 5px 20px #cecccc;
+    padding: 20px;
+    /*border-radius: 10px;*/
+}
+.field-many{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.field-many.three > .field {
+    width:33%;
+    /*max-width:133px;*/
+}
+.field-many.three > .field input {
+    max-width:133px;
+}
+.field-many.two > .field {
+    width:50%;    
+    /*max-width:190px;*/
+}
+.field-many.two > .field input {
+    max-width:200px;
+}
+
+.field_group {
+    width:100%;
+    /*
+    display: flex;
+    flex-direction: row;
+    
+    min-width: 400px;
+    
+    max-width: 500px;
+    flex-wrap: wrap;
+    */
+    
+   /* max-inline-size: 600px;
+   justify-content: flex-start;
+   justify-content: center;
+    */
+    
+    
+    border-radius:5px;
+    padding: 20px 0px 10px 0px;
+    
+}
+.field_group > div > input {
+    border-right: 1px solid;
+}
+
+.field:last-child > input{
+    border-right: none;
+}
+
+
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}

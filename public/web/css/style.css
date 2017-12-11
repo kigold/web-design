@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway-light;
+    src: url(fonts/Raleway-Light.ttf);
+}
+body {
+    font-family: Raleway;
+    color: #11304e;
+}
+body > h3 > a{
+    color:white;
+}
+label {
+    font-family: Raleway-light;
+}
+
+
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}

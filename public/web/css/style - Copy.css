@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Regular.ttf);
+}
+body {
+    font-family: Raleway;
+}
+form {
+    background: #f0eded;
+    padding: 10px 50px 40px 50px;
+    border-radius: 10px;
+}
+input {
+    border: none;
+    
+    min-height: 40px;
+}
+li {
+    padding-bottom: 50px;
+}
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    align-content: center;
+    height: auto;
+    
+}
+
+.grad {
+    background: linear-gradient( #033dfd , #03eec7 110%)
+}
+.shadow {
+    box-shadow: 5px 5px 20px #cecccc;
+}
+.teal {
+    background-color: #03eec7;
+}
+.green {
+    background-color: #4CAF50;
+}
+.blue {
+    background-color: #0698db;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.field > label {    
+    padding: 0px 0px 10px 20px;
+}
+.field > input {    
+    box-shadow: 5px 5px 20px #cecccc;
+    padding: 20px;
+    /*border-radius: 10px;*/
+}
+
+
+.field_group {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+   /* max-inline-size: 600px;
+   justify-content: center;
+    */
+    
+    
+    border-radius:5px;
+    padding: 10px 10px 10px 10px;
+    margin: 30px;
+}
+.field_group > div > input {
+    border-right: 1px solid;
+}
+
+.field:last-child > input{
+    border-right: none;
+}
+
+
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}

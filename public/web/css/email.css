@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/skyscrappers.png);    ;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+form {
+    background: #f5f8fc;
+    padding: 10px 50px 40px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input {
+    border: none;
+    border-top-left-radius:     1em 5em;
+    border-top-right-radius:    1em 5em;
+    border-bottom-right-radius: 1em 5em;
+    border-bottom-left-radius:  1em 5em;
+}
+input {
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 600px;
+    min-width: 400px;
+    align-content: center;
+    height: auto;
+    box-shadow: 5px 5px 20px #000000;
+    
+}
+.field {    
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /*min-width: 400px;*/
+}
+.field > label {    
+    padding: 0px 0px 10px 20px;
+}
+.field > input {    
+    box-shadow: 5px 5px 20px #cecccc;
+    padding: 20px;
+    /*border-radius: 10px;*/
+}
+
+
+
+.field_group {
+    width:100%; 
+    border-radius:5px;
+    padding: 20px 0px 10px 0px;
+    
+}
+.field_group > div > input {
+    border-right: 1px solid;
+}
+
+
+
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}

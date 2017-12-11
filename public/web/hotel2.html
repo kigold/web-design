@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Hotel Booking</title>
+        <script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/temperature"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/hotel2.css" type="text/css">
+    </head>
+
+    <body>
+        <h2>Hotel Booking</h2>
+        <h3><a href="index.html">Home</a></h3>
+        <div class="container">
+            <form action="">
+                <h3>Hotel Booking</h3>
+                <div class="field">
+                    <label for="location">Location</label>
+                    <input type="text" id=location placeholder="Moscow"/>
+                </div>
+                <div class="field">
+                        <label for="check-in">Check-in</label>
+                        <input type="date" id="check-in"/>
+                </div>
+                <div class="field">
+                        <label for="check-out">Check-out</label>
+                        <input type="date" id="check-out"/>
+                </div>
+                <div class="field_group">   
+                    <div class="group">
+                        <label class="field" for="room">Room</label>
+                        <label class="field" for="adults">Adults</label>
+                        <label class="field"for="kids">Kids</label>
+                    </div>
+                                
+                    <div class="group">
+                        <div class="field">                        
+                            <input type="number" id="room" placeholder="1"/>
+                        </div>
+                        <div class="field">                                            
+                            <input type="number" id="adults" placeholder="2"/>
+                        </div>
+                        <div class="field">                        
+                            <input type="number" id="kids" placeholder="4"/>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </form>
+        </div>
+    </body>
+</html>
