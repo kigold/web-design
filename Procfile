@@ -1,1 +1,1 @@
-web: node --debug=5858 public/index.js
+web: node --debug=5858 pin/index.js
