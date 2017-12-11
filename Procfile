@@ -1,1 +1,1 @@
-web: node --debug=5858 bin/index.html
+web: node --debug=5858 public/index.html
