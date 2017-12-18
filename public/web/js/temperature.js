@@ -11,13 +11,13 @@ $(document).ready(function() {
         //f = (c x 9/5) +32
         c = cel.val();
         f = (c*(9/5)) + 32;
-        far.val(f);
+        far.val(parseFloat(Math.round(f * 100) / 100).toFixed(2));
         console.log(f);
     })
     far.change(function(){
         f = far.val();
-        c = (f - 32)*(5/9);
-        cel.val(c);
+        c = (f - 32)*(5/9);        
+        cel.val(parseFloat(Math.round(c * 100) / 100).toFixed(2));
         console.log(c);
     })
 });
