@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    /*
+    Fomart Date picker
     console.log("date");
     var checkin = $("#check-in");
     var checkout = $("#check-out");
@@ -15,5 +17,5 @@ $(document).ready(function() {
             moment(this.value, "YYYY-MM-DD")
             .format( this.getAttribute("data-date-format") )
         )
-    }).trigger("change")
+    }).trigger("change")*/
 });

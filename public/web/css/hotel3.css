@@ -27,7 +27,7 @@ input {
 	line-height: 26.4px;
 }
 input.number {
-    width: 100%;
+    min-width: 100%;
 }
 input.border {
     border-right: 1px solid #cecccc;
@@ -130,7 +130,8 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 }
-
+/*
+date formating
 .date::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
     display: none;
 }
@@ -146,10 +147,10 @@ h1 {
     color: white;
 }
 
-input:before {   
+date:before {   
 
-    
     content: attr(data-date);
     display: inline-block;
     color: black;
 }
+*/
