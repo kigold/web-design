@@ -1,0 +1,155 @@
+/*reset*/
+div { margin-top:0px !important;margin-bottom:0px !important;}
+body {
+    background-image: url(../img/skyscrappers.png);    ;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+form {
+    background: #f5f8fc;
+    padding: 10px 20px 40px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border: none;
+    /*border-top-left-radius:     1em 5em;
+    border-top-right-radius:    1em 5em;
+    border-bottom-right-radius: 1em 5em;
+    border-bottom-left-radius:  1em 5em;*/
+}
+input {
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+input.number {
+    width: 100%;
+}
+input.border {
+    border-right: 1px solid #cecccc;
+}
+
+.banner{
+    background: #d62341;
+    height:70px;
+    border-radius: 5px;
+    max-width: 300px;
+    color:white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    margin: auto;
+    padding: 0px 100px 0px 100px;
+    margin-top:-5px !important;
+    z-index: -1;
+
+
+}
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 400px;
+    min-width: 300px;
+    align-content: center;
+    height: auto;
+    box-shadow: 5px 5px 20px #000000;
+    
+}
+.field {
+    display:grid;
+    grid-template-rows: minmax(1em, 100%);
+    -ms-grid-rows: minmax(1em, 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*grid-template-columns: [start a] 200px [b] 50% [c] 100px [d end];
+    grid-template-rows: [start] 16em [content] minmax(3em, 100%) [footer] 2em [end];
+*/
+}
+.field.one {
+    grid-template-columns: [start a] 100% [end];
+    -ms-grid-columns: [start a] 100% [end];
+}
+.field.two {
+    grid-template-columns: [start a] 50% [b] 50% [end];  
+    -ms-grid-columns: [start a] 50% [b] 50% [end];
+}
+.field.three {
+    grid-template-columns: [start a] 33.333333% [b] 33.333333% [c] 33.333333% [end];  
+    -ms-grid-columns: [start a] 33.333333% [b] 33.333333% [c] 33.333333% [end];
+}
+.field > label {    
+    padding: 0px 0px 10px 20px;
+}
+.field > input {    
+    /*box-shadow: 5px 5px 20px #cecccc;*/
+    padding: 20px;
+    /*border-radius: 10px;*/
+}
+/* set border for input field items*/
+.field.one input:first-of-type {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.field.one input:last-of-type {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px
+}
+.field.two input:first-of-type {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.field.two input:last-of-type {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.field.three input:first-of-type {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.field.three input:last-of-type {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.field > input{
+    box-shadow: 5px 5px 20px #cecccc;
+}
+
+
+h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.date::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+.date::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: cal(50% - 10px);
+    right: 0;
+    color: black;
+    opacity: 1;
+}
+.date {
+    position: relative;
+    color: white;
+}
+
+input:before {   
+
+    
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}

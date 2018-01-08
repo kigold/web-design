@@ -2,54 +2,37 @@
     <head>
         <title>Hotel Booking</title>
         <script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/temperature"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+        <script type="text/javascript" src="js/date.js"></script>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="stylesheet" href="css/hotel.css" type="text/css">
+        <link rel="stylesheet" href="css/hotel3.css" type="text/css">
     </head>
 
     <body>
         <h3><a href="index.html">Home</a></h3>
         <div class="container">
             <form action="">
-                <h2>Hotel Booking</h2>
-                <div class="field_group">
-                    <div class="field">
-                            <label for="location">Location</label>
-                            <input type="text" id=location placeholder="Moscow"/>
-                    </div>
-                </div>
-                <div class="field_group">
-                    <div class="field-many two">
-                        <div class="field">
-                            <label for="check-in">Check-in</label>
-                            <input type="date" id="check-in"/>
-                        </div>
-                        <div class="field">
-                            <label for="check-out">Check-out</label>
-                            <input type="date" id="check-out"/>
-                        </div>  
-                    </div>                    
-                </div>      
-                <div class="field_group">                    
-                    <div class="field">
-                        <div class="field-many three"> 
-                            <div class="field">
-                                <label for="room">Room</label>                       
-                                <input type="number" id="room" placeholder="1"/>
-                            </div>
-                            <div class="field">
-                                    <label for="adults">Adults</label>                                            
-                                <input type="number" id="adults" placeholder="2"/>
-                            </div>
-                            <div class="field">   
-                                    <label for="kids">Kids</label>                     
-                                <input type="number" id="kids" placeholder="4"/>
-                            </div>
-                        </div>                            
-                    </div>                    
-                </div>
-                
-                
+                <h2>Hotel Booking</h2>            
+                <div class="field one" id="one">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" placeholder="Moscow"/>
+                </div>             
+
+                <div class="field two" id="two">
+                    <label for="check-in">Check-in</label>
+                    <label for="check-out">Check-out</label>
+                    <input data-date-format="DD MMMM YYYY" class="border date" type="date" id="check-in" value="2017-06-14"/>
+                    <input data-date-format="DD MMMM YYYY" class="date" type="date" id="check-out" value="2017-06-17" /> 
+                </div>    
+
+                <div class="field three" id="three"> 
+                    <label for="room">Room</label>
+                    <label for="adults">Adults</label>
+                    <label for="kids">Kids</label>
+                    <input class="number border" type="number" id="room" placeholder="1"/>
+                    <input class="number border" type="number" id="adults" placeholder="2"/>
+                    <input class="number" type="number" id="kids" placeholder="4"/>
+                </div>                                
             </form>
         </div>
         <div class="banner">
