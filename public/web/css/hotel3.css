@@ -44,6 +44,7 @@ input.border {
     height:70px;
     border-radius: 5px;
     max-width: 300px;
+    min-width: 20%;
     color:white;
     text-align: center;
     display:flex;
@@ -67,7 +68,17 @@ input.border {
     align-content: center;
     height: auto;
     box-shadow: 5px 5px 20px #000000;
-    
+}
+@media only screen and (max-width: 400px) {
+    .container {
+        position: relative;
+        margin: auto;
+        max-width: 400px;
+        min-width: 300px;
+        align-content: center;
+        height: auto;
+        box-shadow: 5px 5px 20px #000000;
+    }
 }
 .field {
     display:grid;
