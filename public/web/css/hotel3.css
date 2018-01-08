@@ -27,7 +27,7 @@ input {
 	line-height: 26.4px;
 }
 input.number {
-    min-width: 100%;
+    
 }
 input.border {
     border-right: 1px solid #cecccc;
