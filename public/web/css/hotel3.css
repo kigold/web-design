@@ -56,8 +56,6 @@ input.border {
     padding: 0px 100px 0px 100px;
     margin-top:-5px !important;
     z-index: -1;
-
-
 }
 
 .container {
@@ -78,6 +76,10 @@ input.border {
         align-content: center;
         height: auto;
         box-shadow: 5px 5px 20px #000000;
+    }
+    .banner{
+        max-width: 20%;
+        min-width: 20%;
     }
 }
 .field {
